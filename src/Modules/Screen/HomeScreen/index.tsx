@@ -3,7 +3,7 @@ import {HomeScreenProps} from './interface'
 import { Header } from '../../../Core'
 const HomeScreen:FC<HomeScreenProps>=()=>{
     return(
-<div>
+<div >
 <Header/>
 </div>
     )

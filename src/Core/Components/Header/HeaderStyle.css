@@ -7,3 +7,16 @@
 /* 
     position: relative; */
 }
+.titleContainer{
+    cursor: pointer;
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/11/WIX-Logo.png");
+    height: 50px;
+    width: 50px;
+    display: flex;
+
+}
+.title{
+  
+    background-color: red;
+    margin-left: 10px;
+}

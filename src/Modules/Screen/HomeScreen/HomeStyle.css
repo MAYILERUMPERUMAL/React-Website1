@@ -1,0 +1,70 @@
+.Container{
+    height: 100vh;
+    width: 100vw;
+}
+.OptionListHeader{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.optionlist1{
+    height: 100px;
+    width: 150px;
+    border-color: black;
+    margin-left: 10px;
+    display: flex;
+   
+}
+.optionlist1Text1{
+    text-align: right;
+    font-size: 40px;
+}
+.optionlist1Text2{
+    font-size: 20px;
+    line-height: 1em
+}
+.optionlistContainer1{
+    flex:1;
+}
+.optionlistContainer2{
+    flex:1;
+    display: flex;
+}
+.optionlistContainer2TextBox{
+    width: 139px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
+    visibility: inherit;
+
+}
+.optionlistContainer2TextBoxText{
+    text-align: center;
+    line-height: 50px;
+}
+.LoginContainer{
+height: 100px;
+width: 50px;
+}
+.cartImageStyle{
+    height: 30px;
+    width: 30px;
+  align-self: center;
+}
+.loginandcartContainer{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
+    visibility: inherit;
+   justify-items: center;
+}
+.loginTextStyle{
+    text-align: center;
+    line-height: 50px;
+}

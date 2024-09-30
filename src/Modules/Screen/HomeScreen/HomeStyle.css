@@ -68,3 +68,61 @@ width: 50px;
     text-align: center;
     line-height: 50px;
 }
+.imageStyle1{
+    width: 847px;
+    height: 608px;
+left: 2px;
+}
+.imagebackgroundContainer{
+    height: 90vh;
+position: absolute;
+right: 1px;
+width: 960px;
+    background-color:#cbdbc5 ;
+}
+.imageandcontentcontainer{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.imagestylecontainer{
+    width: 870px;
+    height: 650px;
+    display: flex;
+    left: 200px;
+    right: 0px;
+    top:80px;
+    object-fit: cover;
+    position: absolute;
+align-items: center;
+    background-color: white;
+}
+.conetntConatiner{
+    top: 100px;
+    height: 400px;
+    width: 400px;
+    background-color: #e8e6e5;
+}
+.conetntConatinerParent{
+    height: 600px;
+    width: 450px;
+    z-index: 1;
+    position: absolute;
+justify-content: center;
+align-items: flex-end;
+display: flex;
+
+}
+.textStyle{
+    font-size: 55px;
+    text-transform:uppercase;
+    letter-spacing: normal;
+}
+.conetntConatinerParent1{
+    height: 450px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}

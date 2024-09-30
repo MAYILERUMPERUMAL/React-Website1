@@ -38,7 +38,25 @@ const HomeScreen:FC<HomeScreenProps>=()=>{
     <img src='https://www.svgrepo.com/show/505591/cart-1.svg' className='cartImageStyle'/>
 </div>
 </div>
+<div className='imageandcontentcontainer'>
+    <div className='imagebackgroundContainer'>
+        <div className='conetntConatinerParent'>
+            <div className='conetntConatinerParent1'>
+            <div className='conetntConatiner'> 
+<h1 className='textStyle'>We Change The World One Eye Brow At the time</h1>
 
+</div>
+            </div>
+      
+        </div>
+    
+    </div>
+    <div className='imagestylecontainer'>
+    <img src='https://static.wixstatic.com/media/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.jpg/v1/crop/x_0,y_670,w_3840,h_2792/fill/w_847,h_608,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.jpg' className='imageStyle1'/>
+
+    </div>
+  
+</div>
 </div>
     )
 }

@@ -1,128 +1,121 @@
-.Container{
-    height: 100vh;
-    width: 100vw;
-}
-.OptionListHeader{
+.Container {
     display: flex;
-    height: 100px;
-    width: 100vw;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.optionlist1{
-    height: 100px;
-    width: 150px;
-    border-color: black;
-    margin-left: 10px;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    
+  }
+  
+  .Header {
     display: flex;
-   
-}
-.optionlist1Text1{
-    text-align: right;
-    font-size: 40px;
-}
-.optionlist1Text2{
-    font-size: 20px;
-    line-height: 1em
-}
-.optionlistContainer1{
-    flex:1;
-}
-.optionlistContainer2{
-    flex:1;
-    display: flex;
-}
-.optionlistContainer2TextBox{
-    width: 139px;
-    height: 50px;
-    position: relative;
-    box-sizing: border-box;
-    overflow: visible;
-    visibility: inherit;
-
-}
-.optionlistContainer2TextBoxText{
-    text-align: center;
-    line-height: 50px;
-}
-.LoginContainer{
-height: 100px;
-width: 50px;
-}
-.cartImageStyle{
+    height: 80px; /* Fixed height for the header */
+    
+  }
+  
+  .Container2 {
+    display: flex; /* This ensures a row layout */
+    flex: 1; /* Takes up remaining space after the header */
+    
+    overflow: hidden; /* Prevents overflow and scrolling */
+  }
+  
+  .Container3, .bg-secondary {
+    flex: 1; /* Ensures both columns (children) take up equal width */
+    display: flex; /* Optional: If you want content inside to align in a certain way */
+    color: white;
+  }
+  
+  .Container3 {
+    
+  }
+  
+  .bg-secondary {
+    
+  }
+  .imagestyle{
+    height: 80px;
+    width: 80px;
+  }
+  .IconStyle1{
     height: 30px;
     width: 30px;
-  align-self: center;
-}
-.loginandcartContainer{
+  }
+  .IconConatiner{
+    height: 100px;
     width: 100px;
-    height: 50px;
+justify-content: space-between;
+/* background-color: brown; */
+  }
+  .HeaderContainer1 {
+    height: 25px;
+    border: 0.1px solid #A6B9C7; /* Full border */
+    border-right-width: 0.1px; /* Overriding right border width */
+    align-self: center;
+}
+.primaryButton{
     display: flex;
-    position: relative;
-    box-sizing: border-box;
-    overflow: visible;
-    visibility: inherit;
-   justify-items: center;
-}
-.loginTextStyle{
-    text-align: center;
-    line-height: 50px;
-}
-.imageStyle1{
-    width: 847px;
-    height: 608px;
-left: 2px;
-}
-.imagebackgroundContainer{
-    height: 90vh;
-position: absolute;
-right: 1px;
-width: 960px;
-    background-color:#cbdbc5 ;
-}
-.imageandcontentcontainer{
-    display: flex;
-    flex: 1;
-    position: relative;
-}
-.imagestylecontainer{
-    width: 870px;
-    height: 650px;
-    display: flex;
-    left: 200px;
-    right: 0px;
-    top:80px;
-    object-fit: cover;
-    position: absolute;
-align-items: center;
-    background-color: white;
-}
-.conetntConatiner{
-    top: 100px;
-    height: 400px;
-    width: 400px;
-    background-color: #e8e6e5;
-}
-.conetntConatinerParent{
-    height: 600px;
-    width: 450px;
-    z-index: 1;
-    position: absolute;
-justify-content: center;
-align-items: flex-end;
-display: flex;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: blue;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20px;
 
 }
-.textStyle{
-    font-size: 55px;
-    text-transform:uppercase;
-    letter-spacing: normal;
+.primaryButtontext{
+    color: white;
 }
-.conetntConatinerParent1{
-    height: 450px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.HeaderContainer2{
+  /* background-color: red; */
+flex: 1;
+justify-content: flex-end;
+}
+.PrimaryButtonContainer{
+  display: flex;
+  /* background-color: aqua; */
+ align-items: center;
+}
+.condentContainer{
+  justify-content:space-around;
+  /* background-color: blueviolet; */
+  flex: 1;
+  align-items: center;
+}
+.ListContainer{
+  height: 100px;
+}
+.ListChildContainer{
+}
+.ListChildContainer2{
+} 
+
+.ListContainer3{
+  justify-content: space-around;
+ flex: 1;
+ align-items: center;
+
+}
+.CartImage{
+  height:25px ;
+  width: 25px;
+}
+.LoginContainer{
+  width: 180px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+  
+}
+.LoginButton{
+}
+  .LoginButtonStyle{
+    height: 30px;
+    width: 80px;
     background-color: white;
-}
+    border: none;
+  }
+  .ParagraphConatiner{
+justify-self: center;
+ align-content: center;
+  }

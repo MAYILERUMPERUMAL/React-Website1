@@ -45,6 +45,7 @@ const HomeScreen:FC<HomeScreenProps>=()=>{
 </div>
     </div>
     <div className='d-flex ListContainer'>
+      
 <div className='col-lg-5 ListChildContainer2'>
 
 </div>
@@ -66,14 +67,16 @@ const HomeScreen:FC<HomeScreenProps>=()=>{
     </div>
 </div>
     </div>
-    <div className=' Container2'>
-
+    <div className=' Container2 d-flex'>
+    <div className='imageConatainer1'>
+<img src="https://static.wixstatic.com/media/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.jpg/v1/crop/x_0,y_670,w_3840,h_2792/fill/w_847,h_608,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.jpg" className='imageConatainer1Image'/>
+</div>
    
 <div className='col-lg-6 Container3'>
 <h1>llll</h1>
 </div>
-<div className='col-lg-6 bg-secondary'>
-<h1>44444</h1>
+<div className='col-lg-6 bg-secondary Conatainer4'>
+<div className='contentContainer'></div>
 
 </div>
 </div>

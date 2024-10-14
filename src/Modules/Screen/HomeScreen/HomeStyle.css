@@ -119,3 +119,38 @@ align-items: center;
 justify-self: center;
  align-content: center;
   }
+.imageConatainer1{
+  height: 638px;
+width: 877px;
+margin-top: 60px;
+    position: absolute;
+    background-color: white;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .imageConatainer1Image{
+    width: 847px;
+    height: 608px;
+    object-fit: cover;
+  }
+
+  .contentContainer{
+    /* background-color: red; */
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;
+  }
+  .Conatainer4{
+    flex:1;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+  }

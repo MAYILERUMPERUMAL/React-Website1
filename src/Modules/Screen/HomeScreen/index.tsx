@@ -3,15 +3,7 @@ import {HomeScreenProps} from './interface'
 import ScrollAnimation from 'react-animate-on-scroll';
 import './HomeStyle.css'
 const HomeScreen:FC<HomeScreenProps>=()=>{
-    // useEffect(() => {
-    //     // Disable scrolling
-    //     document.body.style.overflow = 'hidden';
     
-    //     // Cleanup function to re-enable scrolling when component unmounts
-    //     return () => {
-    //       document.body.style.overflow = 'auto';
-    //     };
-    //   }, []);
     return(
 <>
 <div className='Header'>
@@ -117,7 +109,7 @@ const HomeScreen:FC<HomeScreenProps>=()=>{
 
 
  </div>
- <div className='container'>
+ <div className='container-fluid'>
 <div className='row'>
     <div className='col-6 bg-primary'>
 <h1>ppppppppp</h1>
